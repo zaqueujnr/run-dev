@@ -1,5 +1,3 @@
-# 📦 Oportunidades na indústria 
-
 Repo para subir o sistema com docker em modo desenvolvimento.
 
 ## 🚀 Para rodar o projeto em desenvovimento com Docker
