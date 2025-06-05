@@ -9,14 +9,14 @@ Repo para subir o sistema com docker em modo desenvolvimento.
   
 - set ../back-end/.env.db ../back-end/.env.dev 
 
- (.env.db.example) 
-  POSTGRES_USER=postgres 
-  POSTGRES_PASSWORD=password 
+- .env.db.example 
+POSTGRES_USER=postgres 
+POSTGRES_PASSWORD=password 
 
- (.env.dev.example) 
-  PORT=3000 
-  DATABASE_URL=postgres://postgres:password@db-dev:5432/mydb 
-  SKIP_DOTENV=false 
+- .env.dev.example 
+PORT=3000 
+DATABASE_URL=postgres://postgres:password@db-dev:5432/mydb 
+SKIP_DOTENV=false 
 
 - docker-compose -f docker-compose.dev.yml up --build  
 
